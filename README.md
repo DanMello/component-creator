@@ -44,4 +44,11 @@ Step 3. Enter the name of the component you want to create.
 
 The component will be created in the folder you specified in the componentconfig.json file.
 
+Result:
+
+- components
+  - ComponentName
+    - ComponentName.js
+    - ComponentName.module.scss
+
 Thats it!
