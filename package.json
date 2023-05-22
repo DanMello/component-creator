@@ -1,12 +1,12 @@
 {
-  "name": "component-creator",
+  "name": "general-component-creator",
   "displayName": "General Component Creator",
   "description": "Make templates for components so you can easily create new ones without having to rewrite the same code",
   "version": "0.0.1",
   "publisher": "DanMello",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanMello/component-creator"
+    "url": "https://github.com/DanMello/general-component-creator"
   },
   "engines": {
     "vscode": "^1.78.0"
@@ -19,7 +19,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "component-creator.CreateComponent",
+        "command": "general-component-creator.CreateComponent",
         "title": "Create Component"
       }
     ]

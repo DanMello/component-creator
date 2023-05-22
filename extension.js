@@ -13,7 +13,7 @@ const path = require("path");
 
 function activate(context) {
   let disposable = vscode.commands.registerCommand(
-    "component-creator.CreateComponent",
+    "general-component-creator.CreateComponent",
 
     function () {
       const currentWorkspaceFolder =

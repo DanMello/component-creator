@@ -1,4 +1,4 @@
-# component-creator README
+# general-component-creator README
 
 Step 1.
 
