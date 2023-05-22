@@ -3,6 +3,11 @@
   "displayName": "React Component Creator",
   "description": "Make templates for components so you can easily create new ones without rewritting same code",
   "version": "0.0.1",
+  "publisher": "DanMello",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanMello/component-creator"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
