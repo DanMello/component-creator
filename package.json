@@ -1,7 +1,7 @@
 {
   "name": "component-creator",
-  "displayName": "React Component Creator",
-  "description": "Make templates for components so you can easily create new ones without rewritting same code",
+  "displayName": "General Component Creator",
+  "description": "Make templates for components so you can easily create new ones without having to rewrite the same code",
   "version": "0.0.1",
   "publisher": "DanMello",
   "repository": {
