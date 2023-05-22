@@ -6,7 +6,7 @@
   "publisher": "DanMello",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanMello/general-component-creator"
+    "url": "https://github.com/DanMello/component-creator"
   },
   "engines": {
     "vscode": "^1.78.0"
