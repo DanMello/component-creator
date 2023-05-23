@@ -38,7 +38,7 @@ files: An array of files you want to create for each component. You can use $com
 }
 ```
 
-Step 2. Run the command in vscode (ctrl + shift + p) and type "Create component" and press enter.
+Step 2. Run the command in vscode (ctrl + shift + p) windows (cmd + shift + p) mac and type "Create component" and press enter.
 
 Step 3. Enter the name of the component you want to create.
 

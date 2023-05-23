@@ -17,7 +17,7 @@ function activate(context) {
 
     function () {
       const currentWorkspaceFolder =
-        vscode.workspace.workspaceFolders[0].uri.path;
+        vscode.workspace.workspaceFolders[0].uri.fsPath;
 
       const configFilePath = path.join(
         currentWorkspaceFolder,
@@ -44,6 +44,19 @@ function activate(context) {
         })
         .then((componentName) => {
           if (componentName) {
+            const componentPath = path.join(
+              currentWorkspaceFolder,
+              rootFolder,
+              componentName
+            );
+
+            if (fs.existsSync(componentPath)) {
+              vscode.window.showErrorMessage(
+                "Component already exists in the current workspace folder"
+              );
+              return;
+            }
+
             vscode.workspace.fs
               .createDirectory(
                 vscode.Uri.joinPath(
